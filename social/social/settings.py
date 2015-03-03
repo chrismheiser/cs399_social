@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'localflavor',
     'social',
 )
 
@@ -49,9 +50,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'cs399_social.urls'
+ROOT_URLCONF = 'social.urls'
 
-WSGI_APPLICATION = 'cs399_social.wsgi.application'
+WSGI_APPLICATION = 'social.wsgi.application'
 
 
 # Database
@@ -82,3 +83,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),)
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR,  'templates'),
+)
