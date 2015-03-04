@@ -2,19 +2,17 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='cs399-band',
+    name='cs399_Social',
     version='0.1.0',
-    description='CS399 Band',
+    description='CS399 Social',
     long_description=open('README.rst').read(),
     keywords=[
         'class',
         'django',
         'nau'
     ],
-    author='Todd Wolfson',
-    author_email='todd@twolfson.com',
-    url='https://github.com/justin/cs399',
-    download_url='https://github.com/justin/cs399/archive/master.zip',
+    author='Group',
+    url='https://github.com/cmh553/cs399_social',
     packages=find_packages(),
     license='UNLICENSE',
     install_requires=open('requirements.txt').readlines(),

@@ -1,17 +1,22 @@
 <<<<<<< HEAD
 ##Class Project for NAU CS399
+Pages
+• a splash page,
+• an about page,
+• user login system,
+• ability for users to add content,
+• a mechanism to discover user pages/feeds,
+• several user pages
 
-###Components
-- a list of campaigns
-- splash page
-- about page
-- several campaign pages
-	- form on each page -> Model
-- admin portion to view db contents
+Objectives
+• Use of RESTful services (not necc. on all pages)
+• Use of authentication
+• Use of template constructs
+• Use of database models
+• Capturing data in the datastore
+• Use of HTML and CSS in a simple site
+• Use of git or mercurial
 
-###Models
-- Campaigns
-=======
 # cs399_social
 CS399 Project 3:  Going Social
 
