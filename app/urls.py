@@ -8,4 +8,6 @@ urlpatterns = patterns('',
 
                        url(r'^$', 'app.views.home', name='home'),
 					   url(r'^home/', 'app.views.home', name='home'),
+					   url(r'^activity/', 'app.views.activity', name='activity'),
+					   url(r'^browse/', 'app.views.browse', name='browse'),
 )
