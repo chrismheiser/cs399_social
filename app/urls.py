@@ -10,4 +10,7 @@ urlpatterns = patterns('',
 					   url(r'^home/', 'app.views.home', name='home'),
 					   url(r'^activity/', 'app.views.activity', name='activity'),
 					   url(r'^browse/', 'app.views.browse', name='browse'),
+					   url(r'^about/', 'app.views.about', name='about'),
+					   url(r'^login/', 'app.views.login', name='login'),
+					   url(r'^upload/', 'app.views.upload', name='upload'),
 )
